@@ -1,0 +1,14 @@
+GET http://localhost:4004/odata/v4/MyService/OrderSet
+
+###
+
+POST http://localhost:4004/odata/v4/MyService/OrderSet
+Content-Type: application/json
+
+{
+    "orderId":3,
+    "customerName":"Shipra",
+    "grossAmount":"300",
+    "contactPerson":"Garima",
+    "currency":"INR"
+}
